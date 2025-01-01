@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC012D32D1EEBF60002922F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC012D22D1EEBF60002922F /* Photos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC012882D1D3FB40002922F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC012662D1D3FB20002922F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC0126D2D1D3FB20002922F;
+			remoteInfo = ArmQuickShare;
+		};
+		CEC012922D1D3FB40002922F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC012662D1D3FB20002922F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC0126D2D1D3FB20002922F;
+			remoteInfo = ArmQuickShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEC0126E2D1D3FB20002922F /* ArmQuickShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArmQuickShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC012872D1D3FB40002922F /* ArmQuickShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmQuickShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC012912D1D3FB40002922F /* ArmQuickShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmQuickShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC012D22D1EEBF60002922F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CEC012992D1D3FB40002922F /* Exceptions for "ArmQuickShare" folder in "ArmQuickShare" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CEC0126D2D1D3FB20002922F /* ArmQuickShare */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CEC012702D1D3FB20002922F /* ArmQuickShare */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CEC012992D1D3FB40002922F /* Exceptions for "ArmQuickShare" folder in "ArmQuickShare" target */,
+			);
+			path = ArmQuickShare;
+			sourceTree = "<group>";
+		};
+		CEC0128A2D1D3FB40002922F /* ArmQuickShareTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ArmQuickShareTests;
+			sourceTree = "<group>";
+		};
+		CEC012942D1D3FB40002922F /* ArmQuickShareUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ArmQuickShareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC0126B2D1D3FB20002922F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC012D32D1EEBF60002922F /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC012842D1D3FB40002922F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC0128E2D1D3FB40002922F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC012652D1D3FB20002922F = {
+			isa = PBXGroup;
+			children = (
+				CEC012702D1D3FB20002922F /* ArmQuickShare */,
+				CEC0128A2D1D3FB40002922F /* ArmQuickShareTests */,
+				CEC012942D1D3FB40002922F /* ArmQuickShareUITests */,
+				CEC012D12D1EEBF60002922F /* Frameworks */,
+				CEC0126F2D1D3FB20002922F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC0126F2D1D3FB20002922F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0126E2D1D3FB20002922F /* ArmQuickShare.app */,
+				CEC012872D1D3FB40002922F /* ArmQuickShareTests.xctest */,
+				CEC012912D1D3FB40002922F /* ArmQuickShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC012D12D1EEBF60002922F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC012D22D1EEBF60002922F /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC0126D2D1D3FB20002922F /* ArmQuickShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC0129A2D1D3FB40002922F /* Build configuration list for PBXNativeTarget "ArmQuickShare" */;
+			buildPhases = (
+				CEC0126A2D1D3FB20002922F /* Sources */,
+				CEC0126B2D1D3FB20002922F /* Frameworks */,
+				CEC0126C2D1D3FB20002922F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CEC012702D1D3FB20002922F /* ArmQuickShare */,
+			);
+			name = ArmQuickShare;
+			packageProductDependencies = (
+			);
+			productName = ArmQuickShare;
+			productReference = CEC0126E2D1D3FB20002922F /* ArmQuickShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC012862D1D3FB40002922F /* ArmQuickShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC0129F2D1D3FB40002922F /* Build configuration list for PBXNativeTarget "ArmQuickShareTests" */;
+			buildPhases = (
+				CEC012832D1D3FB40002922F /* Sources */,
+				CEC012842D1D3FB40002922F /* Frameworks */,
+				CEC012852D1D3FB40002922F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC012892D1D3FB40002922F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEC0128A2D1D3FB40002922F /* ArmQuickShareTests */,
+			);
+			name = ArmQuickShareTests;
+			packageProductDependencies = (
+			);
+			productName = ArmQuickShareTests;
+			productReference = CEC012872D1D3FB40002922F /* ArmQuickShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEC012902D1D3FB40002922F /* ArmQuickShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC012A22D1D3FB40002922F /* Build configuration list for PBXNativeTarget "ArmQuickShareUITests" */;
+			buildPhases = (
+				CEC0128D2D1D3FB40002922F /* Sources */,
+				CEC0128E2D1D3FB40002922F /* Frameworks */,
+				CEC0128F2D1D3FB40002922F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC012932D1D3FB40002922F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEC012942D1D3FB40002922F /* ArmQuickShareUITests */,
+			);
+			name = ArmQuickShareUITests;
+			packageProductDependencies = (
+			);
+			productName = ArmQuickShareUITests;
+			productReference = CEC012912D1D3FB40002922F /* ArmQuickShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC012662D1D3FB20002922F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CEC0126D2D1D3FB20002922F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CEC012862D1D3FB40002922F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CEC0126D2D1D3FB20002922F;
+					};
+					CEC012902D1D3FB40002922F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CEC0126D2D1D3FB20002922F;
+					};
+				};
+			};
+			buildConfigurationList = CEC012692D1D3FB20002922F /* Build configuration list for PBXProject "ArmQuickShare" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC012652D1D3FB20002922F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CEC0126F2D1D3FB20002922F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC0126D2D1D3FB20002922F /* ArmQuickShare */,
+				CEC012862D1D3FB40002922F /* ArmQuickShareTests */,
+				CEC012902D1D3FB40002922F /* ArmQuickShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC0126C2D1D3FB20002922F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC012852D1D3FB40002922F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC0128F2D1D3FB40002922F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC0126A2D1D3FB20002922F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC012832D1D3FB40002922F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC0128D2D1D3FB40002922F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC012892D1D3FB40002922F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC0126D2D1D3FB20002922F /* ArmQuickShare */;
+			targetProxy = CEC012882D1D3FB40002922F /* PBXContainerItemProxy */;
+		};
+		CEC012932D1D3FB40002922F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC0126D2D1D3FB20002922F /* ArmQuickShare */;
+			targetProxy = CEC012922D1D3FB40002922F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEC0129B2D1D3FB40002922F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FR7T98PVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArmQuickShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ARM Quick Share";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ARM Quick Share uses Photo Library to access photos";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.ios.armquickshare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC0129C2D1D3FB40002922F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FR7T98PVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArmQuickShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ARM Quick Share";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ARM Quick Share uses Photo Library to access photos";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.ios.armquickshare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEC0129D2D1D3FB40002922F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEC0129E2D1D3FB40002922F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC012A02D1D3FB40002922F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.ios.ArmQuickShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArmQuickShare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArmQuickShare";
+			};
+			name = Debug;
+		};
+		CEC012A12D1D3FB40002922F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.ios.ArmQuickShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArmQuickShare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArmQuickShare";
+			};
+			name = Release;
+		};
+		CEC012A32D1D3FB40002922F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.ios.ArmQuickShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArmQuickShare;
+			};
+			name = Debug;
+		};
+		CEC012A42D1D3FB40002922F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.ios.ArmQuickShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArmQuickShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC012692D1D3FB20002922F /* Build configuration list for PBXProject "ArmQuickShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC0129D2D1D3FB40002922F /* Debug */,
+				CEC0129E2D1D3FB40002922F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC0129A2D1D3FB40002922F /* Build configuration list for PBXNativeTarget "ArmQuickShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC0129B2D1D3FB40002922F /* Debug */,
+				CEC0129C2D1D3FB40002922F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC0129F2D1D3FB40002922F /* Build configuration list for PBXNativeTarget "ArmQuickShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC012A02D1D3FB40002922F /* Debug */,
+				CEC012A12D1D3FB40002922F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC012A22D1D3FB40002922F /* Build configuration list for PBXNativeTarget "ArmQuickShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC012A32D1D3FB40002922F /* Debug */,
+				CEC012A42D1D3FB40002922F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC012662D1D3FB20002922F /* Project object */;
+}
